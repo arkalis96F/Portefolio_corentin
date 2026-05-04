@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DMH - FRAYSSOU Corentin</title>
+    <title>Navidrome DynDNS - FRAYSSOU Corentin</title>
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
@@ -18,8 +18,8 @@
     </nav>
     <section class="page-hero">
         <div class="page-hero-content">
-            <h1>DMH</h1>
-            <p class="subtitle">Réalisation en cours de formation</p>
+            <h1>Navidrome + DynDNS</h1>
+            <p class="subtitle">Réalisation personnelle</p>
         </div>
     </section>
     <section class="page-section">
