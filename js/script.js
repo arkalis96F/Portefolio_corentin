@@ -1,3 +1,0 @@
-document.querySelectorAll('a[href^="#"]').forEach(a=>{a.addEventListener('click',function(e){e.preventDefault();const t=document.querySelector(this.getAttribute('href'));if(t)t.scrollIntoView({behavior:'smooth',block:'start'})})});
-const obs=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting){e.target.style.width=e.target.getAttribute('data-width')||e.target.style.width}})},{threshold:.3});
-document.querySelectorAll('.level-fill').forEach(b=>{const w=b.style.width;b.style.width='0%';b.setAttribute('data-width',w);setTimeout(()=>{b.style.width=w},300);obs.observe(b)});
