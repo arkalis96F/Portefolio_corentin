@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FRAYSSOU Corentin - Portfolio BTS SIO SISR</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- ===== Navigation ===== -->
+    <nav>
+        <ul>
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="competences.html">Compétences</a></li>
+            <li><a href="#projets">Projets</a></li>
+            <li><a href="documentation.html">Documentation</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- ===== Hero / Accueil ===== -->
+    <section id="accueil" class="hero">
+        <div class="hero-content">
+            <h1>FRAYSSOU Corentin</h1>
+            <p class="subtitle">BTS SIO – 2ème année option SISR<br>Lycée Élie Vinet</p>
+            <a href="#contact" class="cta-button">Me contacter</a>
+        </div>
+    </section>
+
+    <!-- ===== À propos ===== -->
+    <section id="about">
+        <h2>À propos de moi</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>Je suis étudiant en 2ème année de BTS SIO option SISR au lycée Élie Vinet. Dans le cadre de l'épreuve E5, je présente mes compétences et projets professionnels.</p>
+                <p>Passionné par les systèmes d'information et les télécommunications, je développe mes compétences dans l'administration des réseaux, la gestion des systèmes et la sécurité informatique.</p>
+                <p>Mon objectif est de poursuivre dans l'administration et la sécurisation des infrastructures informatiques.</p>
+            </div>
+            <div class="info-card">
+                <h3 style="color: var(--primary-color); margin-bottom: 1.5rem;">Informations</h3>
+                <div class="info-item">
+                    <strong>Formation :</strong>
+                    <span>BTS SIO SISR – 2ème année</span>
+                </div>
+                <div class="info-item">
+                    <strong>Établissement :</strong>
+                    <span>Lycée Élie Vinet, Barbezieux</span>
+                </div>
+                <div class="info-item">
+                    <strong>Période :</strong>
+                    <span>2024-2026</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="journey-cards">
+            <div class="journey-card">
+                <div class="journey-icon"></div>
+                <h3>Formation actuelle</h3>
+                <p class="journey-title">BTS SIO SISR</p>
+                <p class="journey-location">Lycée Élie Vinet, Barbezieux</p>
+                <p class="journey-period">2024-2026</p>
+            </div>
+            <div class="journey-card">
+                <div class="journey-icon"></div>
+                <h3>Mon parcours</h3>
+                <p class="journey-title">BAC PRO SN option B</p>
+                <p class="journey-location">Lycée Bernard-Palissy (2021-2024)</p>
+            </div>
+        </div>
+    </section>
+
+ <!-- ===== Compétences ===== -->
+<section id="projets">
+    <h2>Mes compétences</h2>
+    <div class="projects-grid">
+
+        <div class="project-card">
+            <h3>🗂️ Gérer le patrimoine informatique</h3>
+            
+        </div>
+
+        <div class="project-card">
+            <h3>🎫 Répondre aux incidents et aux demandes</h3>
+        </div>
+
+        <div class="project-card">
+            <h3>🌐 Développer la présence en ligne</h3>
+        </div>
+
+        <div class="project-card">
+            <h3>📋 Travailler en mode projet</h3>
+        </div>
+
+        <div class="project-card">
+            <h3>⚙️ Mettre à disposition un service informatique</h3>
+        </div>
+
+        <div class="project-card">
+            <h3>🚀 Organiser son développement professionnel</h3>
+        </div>
+
+    </div>
+</section>
+
+    <!-- ===== Contact ===== -->
+    <section id="contact">
+        <h2>Me contacter</h2>
+        <div class="contact-content">
+            <div class="contact-info">
+                <h3>Informations de contact</h3>
+                <div class="contact-item">
+                    <strong>📱 Téléphone :</strong>
+                    <a href="tel:0658823699">06 58 82 36 99</a>
+                </div>
+                <div class="contact-item">
+                    <strong>✉️ Email :</strong>
+                    <a href="mailto:corentin.frayssou@gmail.com">corentin.frayssou@gmail.com</a>
+                </div>
+                <div class="contact-item">
+                    <strong>💼 LinkedIn :</strong>
+                    <a href="https://fr.linkedin.com/in/corentin-frayssou-750052342" target="_blank">Corentin FRAYSSOU</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Footer ===== -->
+    <footer>
+        <p>&copy; 2025 FRAYSSOU Corentin - Portfolio BTS SIO SISR</p>
+        <p>Tous droits réservés</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
